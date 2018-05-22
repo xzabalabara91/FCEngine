@@ -1,0 +1,502 @@
+/**  http://www.skypeenglishclasses.com/english-phrasal-verbs/ **/
+/** https://www.usingenglish.com/reference/phrasal-verbs/ask.html **/
+var data = [
+	{
+		"id":0,
+		"phrasal":"Aim",
+		"eng": "Aim At",
+		"def": [
+			"To point a weapon at someone or something",
+			"To intend to achieve",
+			"To create for a particular demographic"
+			],
+		"example": [
+			"Never aim a gun at someone you don't intend to shot",
+			"The Seattle Seahawks are aiming at another Superbowl win",
+			"There needs to be more television programs aimed at men 35 years and older"
+			]	
+	},
+	{
+		"id":1,
+		"phrasal":"Ask",
+		"eng": "Ask About",
+		"def": [
+			"Ask how someone is doing, specially professionally and in terms of health"
+			],
+		"example": [
+			"He asked about my father"
+		]
+	},
+	{
+		"id":2,
+		"phrasal":"Ask",
+		"eng": "Ask After",
+		"def": [
+			"Enquire about someones's health, how life is going"
+			],
+		"example": [
+			"Jenny rang earlier and asked after you, so I told her you were find"
+		]
+	},
+	{
+		"id":3,
+		"phrasal":"Ask",
+		"eng": "Ask Around",
+		"def": [
+			"Ask a number of people for information of help",
+			"Invite someone"
+			],
+		"example" : [
+			"I have no idea, but i will ask around at work and see if anyone can help",
+			"We asked them around for dinner"
+		]
+	},
+	{
+		"id":4,
+		"phrasal":"Ask",
+		"eng": "Ask For",
+		"def": [
+			"To request something",
+			"To say or do something that could result in a negative outcome"
+			],
+		"example": [
+			"The employees asked for a raise",
+			"You are asking for trouble by traveling to that side of the town"
+		]
+	},
+	{
+		"id":5,
+		"phrasal":"Ask",
+		"eng": "Ask In",
+		"def": [
+			"To invite somebody into your house"
+			],
+		"example": [
+			"Jon is at the door. Ask him in"
+		]
+	},
+	{
+		"id":6,
+		"phrasal":"Ask",
+		"eng": "Ask Out",
+		"def": [
+			"To invite someone for a date"
+			],
+		"example": [
+			"He wanted to ask her out but was too shy"
+		]
+	},
+	{
+		"id":7,
+		"phrasal":"Ask",
+		"eng": "Ask Over",
+		"def": [
+			"Invite"
+			],
+		"example": [
+			"They have asked us over for drinks on Friday"
+		]
+	},
+	{
+		"id":8,
+		"phrasal":"Back",
+		"eng": "Back Away",
+		"def": [
+			"Regreat or go backwards"
+			],
+		"example": [
+			"The crowd backed away when the man pulled a knife"
+		]
+	},
+	{
+		"id":9,
+		"phrasal":"Back",
+		"eng": "Back Down",
+		"def": [
+			"Retract or withdraw you position or proposal in an argument"
+			],
+		"example": [
+			"She refused to back down and was fired"
+		]
+	},
+	{
+		"id":10,
+		"phrasal":"Back",
+		"eng": "Back Into",
+		"def": [
+			"Enter a parking area in reverse gear"
+			],
+		"example": [
+			"He prefers to back his car into the garage"
+		]
+	},
+	{
+		"id":11,
+		"phrasal":"Back",
+		"eng": "Back Off",
+		"def": [
+			"Retreat"
+			],
+		"example": [
+			"The police told the protesters to back off"
+		]
+	},
+	{
+		"id":12,
+		"phrasal":"Back",
+		"eng": "Back Out",
+		"def": [
+			"Fail to keep an arrangement or promise"
+			],
+		"example": [
+			"He backed out two days before the holiday so we gave the ticket to his sister"
+		]
+	},
+	{
+		"id":13,
+		"phrasal":"Back",
+		"eng": "Back Out Of",
+		"def": [
+			"Fail to keep an agreement arrengement",
+			"Exit a parking area in reverse gear"
+			],
+		"example": [
+			"She backed out of the agreement at the last minute",
+			"She backed the Rolls out of its parking space"
+		]
+	},
+	{
+		"id":14,
+		"phrasal":"Back",
+		"eng": "Back Up",
+		"def": [
+			"To walk or driver a vehicle backwards",
+			"When you support someone or something",
+			"To make a copy of computer idata or files",
+			"When something is prevented from moving"
+			],
+		"example": [
+			"Wait, back up! You drove past the house",
+			"The rest of the staff backed her up when she complained about working conditions",
+			"You need to backup all your programs before you reformat your computer",
+			"Traffic is backed up on I-90 East"
+		]
+	},
+	{
+		"id":15,
+		"phrasal":"Beat",
+		"eng": "Beat Down",
+		"def": [
+			"Strong sunshine",
+			"Get someone to lower the price of something"
+			],
+		"example": [
+			"The sun was really beating down and we could not stay outdoors",
+			"I managed to beat him down to fifty Euros"
+		]
+	},
+	{
+		"id":16,
+		"phrasal":"Beat",
+		"eng": "Beat Out",
+		"def": [
+			"Narrowly win in competition"
+			],
+		"example": [
+			"The marathon runner barely beat out his rival at the tape"
+		]
+	},
+	{
+		"id":17,
+		"phrasal":"Beat",
+		"eng": "Beat Up",
+		"def": [
+			"When someone hits someone repeatedly using fists or with an object",
+			"Describes an object which is in bad condition due to overuse"
+			],
+		"example": [
+			"I got robbed last night, but at least they did not beat me up",
+			"The car looks so beat up, I doubt it will start"
+		]
+	},
+	{
+		"id":18,
+		"phrasal":"Beef",
+		"eng": "Beef Up",
+		"def": [
+			"To make changes or an improvent"
+			],
+		"example": [
+			"Sherman beefed up their home bu having a swimming pool built"
+		]
+	},
+	{
+		"id":19,
+		"phrasal":"Believe",
+		"eng": "Believe In",
+		"def": [
+			"To feel confident about something or someone",
+			"To believe something exists"
+			],
+		"example": [
+			"If you do not believe in yourself, then no one else wil believe in you either",
+			"Do you believe in magic?"
+		]
+	},
+	{
+		"id":20,
+		"phrasal":"Bite",
+		"eng": "Bite Off",
+		"def": [
+			"To use your teeth to bite a piece of something",
+			"To copy or imitate something or someone"
+			],
+		"example": [
+			"The dog bit the burglar's finger off, making it easy for police to identify the intruder",
+			"China is known for biting off other countries' products"
+		]
+	},
+	{
+		"id":21,
+		"phrasal":"Blow",
+		"eng": "Blow Away",
+		"def": [
+			"When the wind moves an object or person from where it was",
+			"To kill someone with a firearm",
+			"To feel overwhelmed or shocked by what you have seen or heard",
+			"To spend all your many"
+			],
+		"example": [
+			"The wind was so strong that it blew away some of the tree branches",
+			"The gunman blew away anyone who attempted to get in his way",
+			"It just blows me away to se how fast my nephews are growing up",
+			"Dean blows away his money on partying and girls"
+		]
+	},
+	{
+		"id":22,
+		"phrasal":"Blow",
+		"eng": "Blow Down",
+		"def": [
+			"When the wind forces something to fall"
+			],
+		"example": [
+			"A tree was blown down in the storm"
+		]
+	},
+	{
+		"id":23,
+		"phrasal":"Blow",
+		"eng": "Blow In",
+		"def": [
+			"Arrieve, sometimes suddenly or unexpectedly"
+			],
+		"example": [
+			"He blew in from Toronto early this morning"
+		]
+	},
+	{
+		"id":24,
+		"phrasal":"Blow",
+		"eng": "Blow Off",
+		"def": [
+			"When the wind removes something from its place",
+			"To shoot or explode something",
+			"To treat something or someone as unimportant",
+			"An excuse made to avoid doing something"
+			],
+		"example": [
+			"The strong wind blew her hat off",
+			"The policeman told the criminal to raise his hands, or he would get his head blown off",
+			"He invited her on a date, but she blew him off",
+			"Susan told Darin that she had to work late, but Darin knew it was just a blow off"
+		]
+	},
+	{
+		"id":25,
+		"phrasal":"Blow",
+		"eng": "Blow Out",
+		"def": [
+			"Extinguish candles, matches, etc",
+			"Defeat decisively"
+			],
+		"example": [
+			"She blew the candles out on her birthday cake",
+			"The Broncos blew out the Raiders 55-0"
+		]
+	},
+	{
+		"id":26,
+		"phrasal":"Blow",
+		"eng": "Blow Over",
+		"def": [
+			"When a scandal gets forgotten"
+			],
+		"example": [
+			"The scandal blew over within a fornight when the press found someone else to attack"
+		]
+	},
+	{
+		"id":27,
+		"phrasal":"Blow",
+		"eng": "Blow Up",
+		"def": [
+			"To make something explode",
+			"To make an object bigger with air",
+			"To make a fotograph larger",
+			"To become very angry",
+			"To become successful",
+			"To constantly call someone"
+			],
+		"example": [
+			"A nuclear bomb has the power to blow up a whole country",
+			"My jaws hurt from blowing up ballons for the party",
+			"Can you blow up this picture of me?",
+			"The teacher blew up at her students for not listening",
+			"Beyonce did not blow up until she started dating Jay-Z",
+			"Stop blowing up my phone!"
+		]
+	},
+	{
+		"id":28,
+		"phrasal":"Boil",
+		"eng": "Boil Down",
+		"def": [
+			"Simplify, reduce to the essentials",
+			"Heat something to reduce its volume"
+			],
+		"example": [
+			"The report is so long, I boiled it down into a two-page summary",
+			"I boiled down the stock to thicken it"
+		]
+	},
+	{
+		"id":29,
+		"phrasal":"Boil",
+		"eng": "Boil Down To",
+		"def": [
+			"Amount to"
+			],
+		"example": [
+			"It all boiles down to money at the end of the day"
+		]
+	},
+	{
+		"id":30,
+		"phrasal":"Boil",
+		"eng": "Boil Over",
+		"def": [
+			"When people lose their tempers and things get nasty",
+			"When a hot liquid spills out of a container"
+			],
+		"example": [
+			"The tension had been building up and it boiled over in the meeting",
+			"I left the milk on the cooker and it boiled over"
+		]
+	},
+	{
+		"id":31,
+		"phrasal":"Boil",
+		"eng": "Boil Up",
+		"def": [
+			"Feel a negative emotion strongly",
+			"Cook or heat something to boiling point"
+			],
+		"example": [
+			"The anger boiled up in me when I saw what they had done",
+			"I boiled up some water for a cup of coffe"
+		]
+	},
+	{
+		"id":32,
+		"phrasal":"Break",
+		"eng": "Break Away",
+		"def": [
+			"Leave an organisation, usually to form a new one"
+			],
+		"example": [
+			"The SDP broke away from the Labour Party"
+		]
+	},
+	{
+		"id":33,
+		"phrasal":"Break",
+		"eng": "Break Down",
+		"def": [
+			"When someone lose self-control and is emotionally agitated",
+			"When you use any kind of force to go through a locked door",
+			"When something is not fuctioning correctly",
+			"When you simply a complicated idea, situacion, etc",
+			"When a negotiation or an agreement is not completed due to lack of cooperation",
+			"When a substance is reduced to its smallest parts"
+			],
+		"example": [
+			"She broke down in tears after she heard about her boyfriend cheating",
+			"Police officers will break down a door to arrest a suspect, if they have to",
+			"Our roadtrip was going well, until our car broke down in the middle of nowhere!",
+			"Please break down the process into simple terms, so everyone can understand it",
+			"Trade negotiations with Russia nearly broke down last week",
+			"A molecule is made up of two or more atoms, so if you break down a molecule, there will be two or more atoms"
+		]
+	},
+	{
+		"id":34,
+		"phrasal":"Break",
+		"eng": "Break For",
+		"def": [
+			"To go or run towards a place, especially when you are trying to scape"
+			],
+		"example": [
+			"She had to hold him back as he tried to break for the door"
+		]
+	},
+	{
+		"id":35,
+		"phrasal":"Break",
+		"eng": "Break In",
+		"def": [
+			"Go into a building to steal something",
+			"Interrupt something",
+			"Train a horse to be ridden",
+			"Carefully use new products until they are fully functional"
+			],
+		"example": [
+			"The burglars broke in and stole the TV and video",
+			"I am sorry to break in on your conversation, but there is a problem",
+			"It took ages to break the horse in",
+			"I must watch my speed until I break in my new volvo"
+		]
+	},
+	{
+		"id":36,
+		"phrasal":"Break",
+		"eng": "Break Into",
+		"def": [
+			"Start doing something",
+			"Be accepted into a profession or field",
+			"Start to spend funds, usually out of necessity"
+			],
+		"example": [
+			"He broke into a run when he saw the police",
+			"She is trying to break into acting",
+			"I had to break into my savings to pay off the bills"
+		]
+	},
+	{
+		"id":37,
+		"phrasal":"Break",
+		"eng": "Break Off",
+		"def": [
+			"To remove a part of something with force",
+			"To end relations or contact with people",
+			"To show someone how good you are at something",
+			"When a part of something becomes weak over time and detaches naturally"
+			],
+		"example": [
+			"Break me off a piece of that Kit Kat bar",
+			"Jeter decided to break it off with Jessica when he realized he did not want to marry her",
+			"Michael Jordan used to break off anyone who tried to defend him",
+			"The brach is going to break off if you keep sitting on it"
+		]
+	}
+];

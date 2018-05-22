@@ -1,0 +1,56 @@
+h1{
+	width:100%;
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+}
+
+tr { background-color: #C4B9B9 }
+.trMenu:hover { 
+	text-decoration: underline;
+	color:blue;
+	cursor: pointer;
+}
+
+.menuHeader{
+	text-align:center; 
+	font-size:20px; 
+}
+
+.menuth{
+	padding-top:10px; 
+	padding-bottom:10px";
+}
+
+.titleMenu{
+	width:100%; 
+	text-align:center;
+	padding:30px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.main{
+	display: flex;
+    justify-content: center;
+}
+
+.menuElem{
+	height: 500px;
+	border-radius: 15px;
+	background-color: #C4B9B9;
+	float:left;
+	margin-left:1%;
+}
+
+.statement{
+	word-wrap: break-word;
+}
+
+.droplistElem{
+	display: flex;
+	width:100%;
+	margin-left:1%;
+}

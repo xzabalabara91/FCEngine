@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!-- CSS Files -->
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+ <!-- Title -->
+ <title>FCE Grammar Training</title>
+</head>
+<body onload="loadApp()">
+
+<!-- Javascript files -->
+<script src="script/main.js"></script>
+<script src="json/vocabulary.json"></script>
+
+<h1>FCE Training Engine</h1>
+
+<div class="main">
+	<!-- Left Menu -->
+	<div class="menuElem col-sm-2">
+
+		<table style="width:100%">
+			<tr class="menuHeader">
+				<th class="menuth">Menu</th>
+			</tr>
+			<tr id="showVocab" class="trMenu" onclick="showVocabulary()">
+				<td class="menuth">Show Vocabulary</td>
+			</tr>
+			<tr id="newVocab" class="trMenu" onclick="newVocabulary()">
+				<td class="menuth">Add New Vocabulary</td>
+			</tr>
+			<tr id="eng2Spa" class="trMenu" onclick="eng2Spa()">
+				<td class="menuth">English -> Spanish</td>
+			</tr>
+			<tr id="guessMean" class="trMenu" onclick="guessMean()">
+				<td class="menuth">Guess the Meaning</td>
+			</tr>
+		</table>
+
+	</div>
+	<!-- Rigth Menu-->
+	<div class="menuElem col-sm-9" style="float:center">
+
+		<!-- Title of the right menu -->
+		<div id="titleMenu" class="titleMenu">English -> Spanish</div>
+		
+		<!-- Droplist with diferent options to configure the execution -->
+		<div id="dropListGroup" class="droplistElem">
+			
+			<div id="dropListCat" onchange="categoryChanged()">
+				<span style="padding-right:20px;"><b>Category:</b></span>
+				<select id="selectCat"></select>
+			</div>
+			
+			<div id="dropListFilt" onchange="filterChanged()">
+				<span style="padding-right:20px;padding-left: 20px;"><b>Filter:</b></span>
+				<select id="selectFilt"></select>
+			</div>
+			
+			<span id="startButton" style="padding-right:20px;padding-left: 20px;"><input type="button" value="Start" onclick="startButton()"></span>
+			
+		</div>
+
+		<div class="statement">
+			<p id="statement"></p>
+		</div>
+
+		<form id="form">
+		
+		  <input type="radio" name="answer" value="a"></input> Male<br>
+		  <input type="radio" name="answer" value="b"></input> Female<br>
+		  <input type="radio" name="answer" value="c"></input> Other<br>
+		  
+		  <input type="submit" value="Submit">
+		  
+		</form> 
+		
+		
+		
+		<div id="answerBox">CORRECT ANSWER</div>
+		
+	</div>
+</div>
+</body>
+<footer>Developed by Xabier Zabala &copy;</footer>
+</html>
